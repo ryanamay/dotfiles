@@ -1,2 +1,2 @@
 # dotfiles
-A collection of configs for my Arch system
+A collection of config files for my Arch system
