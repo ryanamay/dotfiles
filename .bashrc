@@ -113,3 +113,8 @@ alias code='code-insiders'
 alias sudo='sudo -H GTK_THEME=WhiteSur-dark-solid'
 
 eval "$(starship init bash)"
+
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+PS1='[\u@\h \W]\$ '
